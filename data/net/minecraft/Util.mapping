@@ -100,9 +100,9 @@ CLASS net/minecraft/Util
 	METHOD makeIoExecutor (Ljava/lang/String;Z)Ljava/util/concurrent/ExecutorService;
 		ARG 0 name
 		ARG 1 daemon
-	METHOD memoize (Ljava/util/function/BiFunction;)Ljava/util/function/BiFunction;
+	METHOD memorize (Ljava/util/function/BiFunction;)Ljava/util/function/BiFunction;
 		ARG 0 memoBiFunction
-	METHOD memoize (Ljava/util/function/Function;)Ljava/util/function/Function;
+	METHOD memorize (Ljava/util/function/Function;)Ljava/util/function/Function;
 		ARG 0 memoFunction
 	METHOD name (Ljava/lang/Runnable;Ljava/util/function/Supplier;)Ljava/lang/Runnable;
 		ARG 0 item

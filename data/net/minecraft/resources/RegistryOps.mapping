@@ -18,7 +18,7 @@ CLASS net/minecraft/resources/RegistryOps
 		ARG 0 registryInfo
 	METHOD lambda$retrieveGetter$4 (Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/DataResult;
 		ARG 1 dynamicOps
-	METHOD memoizeLookup (Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;)Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;
+	METHOD memorizeLookup (Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;)Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;
 		ARG 0 lookupProvider
 	METHOD owner (Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;
 		ARG 1 registryKey
